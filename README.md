@@ -12,7 +12,9 @@ Then, just add one of the following keyword after the components which can resiz
 	resize-h	Resize component horizontally only.
 	resize-v	Resize component vertically only.
 	resize-all	Resize component in both directions.
+	alone		Resize a face on its own layer without interfering with others faces in the same pane.
 ```
+The `alone` keyword main purpose is to handle proper resizing of faces used as background (see `%sample/from-cyphre-test.r`). 
 
 Additionally, it is possible to specify a minimum size for the root window using `min-size` option:
 ```
@@ -21,6 +23,6 @@ Additionally, it is possible to specify a minimum size for the root window using
 
 That's all. With that you can cover most of the use-cases with minimal effort.
 
-_Tip_: for cases where the layout is unbalanced, in order to "push" some parts of your layout you can place invisible faces in your layout (using the `sensor` style for example) and make them resizable.
+_Tip_: for cases where the layout is unbalanced, in order to "push" some parts of your layout you can place invisible faces in your layout (using the provided `blank-face` style for example) and make them resizable.
 
 
