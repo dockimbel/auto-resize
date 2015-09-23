@@ -12,7 +12,7 @@ Then, just add one of the following keyword after the components which can resiz
 	resize-h	Resize component horizontally only.
 	resize-v	Resize component vertically only.
 	resize-all	Resize component in both directions.
-	alone		Resize a face on its own layer without interfering with others faces in the same pane.
+	alone		Resize a face on its own layer without interfering with others faces.
 ```
 The `alone` keyword main purpose is to handle proper resizing of faces used as background (see `%sample/from-cyphre-test.r`). 
 
