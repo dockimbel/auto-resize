@@ -14,7 +14,9 @@ Then, just add one of the following keyword after the components which can resiz
 	resize-all	Resize component in both directions.
 	alone		Resize a face on its own layer without interfering with others faces.
 ```
-The `alone` keyword main purpose is to handle proper resizing of faces used as background (see `%sample/from-cyphre-test.r`). 
+The `alone` keyword main purpose is to handle proper resizing of faces used as background (see `%sample/from-cyphre-test.r`).
+
+The resizing properties are inherited when derivating new styles.
 
 Additionally, it is possible to specify a minimum size for the root window using `min-size` option:
 ```
