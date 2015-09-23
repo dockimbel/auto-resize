@@ -1,4 +1,4 @@
-# Auto-resizing extension for Rebol2 VID dialect.
+# Auto-resizing extension for Rebol2 VID dialect
 
 This VID extension provides auto-resizing capabilities to Rebol2 GUI system. It uses a weighted algorithm for deciding how to move/resize every GUI component. Usage is kept as simple as possible in the spirit of Rebol philosophy.
 
