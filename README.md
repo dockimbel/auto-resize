@@ -7,7 +7,7 @@ In order to use it, just load it at the beginning of your script:
     do %auto-resize.r
 ```
 
-Then, just add one of the following keyword after the components which can resize:
+Then, just add one of the following keyword after the components which you want to auto-resize:
 ```
 	resize-h	Resize component horizontally only.
 	resize-v	Resize component vertically only.
