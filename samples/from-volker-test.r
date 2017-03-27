@@ -4,7 +4,7 @@ REBOL [
 	Date: 08/08/2002
 ]
 
-do %auto-resize.r
+do %../auto-resize.r
 
 lay: layout [
 	across
