@@ -1,9 +1,14 @@
 REBOL [
 	Author: "DocKimbel/Softinnov"
-	Date: 17/12/2004
+	Date: 23/09/2015
 	Purpose: "Auto-resizing system for VID"
-	Version: 0.9.5
+	Version: 1.0.0
+	License: "MIT"
 	History: [
+		1.0.0 - 23/09/2015 {
+			o Released in open source on github.
+			o ROUND function definition removed (present in Rebol nowadays).
+		}
 		0.9.5 - 17/12/2004 {
 			o Support correctly multiple windows.
 		}
@@ -77,10 +82,6 @@ system/view/vid/vid-face: make system/view/vid/vid-face [extend: none]
 blank-face: make blank-face [extend: none]
 
 ;======================
-
-; This one should be globally defined
-round: func [value [number!]][to integer! .5 + value]
-
 
 resize-pane: func [
 	blk po pn axis
