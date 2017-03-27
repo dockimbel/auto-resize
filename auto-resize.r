@@ -183,7 +183,7 @@ resize-pane: func [
 ]
 
 do-resize: func [face [object!] old-sz [pair!] /local fp pan f][
-	if all [fp: face/pane not function? fp][
+	if all [fp: get in face 'pane not function? :fp][
 		pan: fp
 		if object? pan [pan: reduce [pan]]
 		foreach f pan [if f/extend [f/size: f/extend/1 f/offset: f/extend/2]]
